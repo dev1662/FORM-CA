@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>FORM</title>
+
+</head>
+<style>
+    .card{
+        padding: 3rem;
+    }
+</style>
+<body>
+    <div class="card">
+        <center>
+
+            <h3>FORM CA</h3>
+        </center>
+    <form method="post" enctype="multipart/form-data">
+       <h4>
+        Details of Main Allotee
+       </h4>
+        <div class="row">
+            <div class="form-group col-sm-3" >
+                <label for="exampleInputEmail1">Name</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter name">
+                <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+            </div>
+            <div class="form-group col-sm-3" >
+                <label for="exampleInputPassword1">Addhar No.</label>
+                <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Number">
+            </div>
+
+            <div class="form-group col-sm-3" >
+                <label for="exampleInputEmail1">Address</label>
+                <textarea  class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter address"></textarea>
+                <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+            </div>
+            <div class="form-group col-sm-3" >
+                <label for="exampleInputPassword1">Email</label>
+                <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Email">
+            </div>
+        </div>
+
+
+        <div class="row">
+
+            <div class="form-group col-sm-3" >
+                <label for="exampleInputEmail1">Phone</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter name">
+                <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+            </div>
+            <div class="form-group col-sm-3" >
+                <label for="exampleInputPassword1">Flat No.</label>
+                <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Number">
+            </div>
+            <div class="form-group col-sm-3" >
+                <label for="exampleInputPassword1">Tower No.</label>
+                <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Number">
+            </div>
+            <div class="form-group col-sm-3" >
+                <label for="exampleInputPassword1">Area</label>
+                <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Area">
+            </div>
+
+           
+        </div>
+
+    <h4>
+        Details of main co-Allotee
+    </h4>
+        <div class="row">
+            <div class="form-group col-sm-6" >
+                <label for="exampleInputEmail1">Name</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter name">
+                <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+            </div>
+            <div class="form-group col-sm-6" >
+                <label for="exampleInputPassword1">Addhar No.</label>
+                <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Number">
+            </div>
+        </div>
+
+  <h4>
+    Details of Claim Amt (in Rs.)
+  </h4>
+        <div class="row">
+            <div class="form-group col-sm-4" >
+                <label for="exampleInputEmail1">Principal Amt</label>
+                <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter amount">
+                <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+            </div>
+            <div class="form-group col-sm-4" >
+                <label for="exampleInputPassword1">Interest</label>
+                <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Interest">
+            </div>
+            <div class="form-group col-sm-4" >
+                <label for="exampleInputPassword1">Penal/Other Charges</label>
+                <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Other Charges">
+            </div>
+        </div>
+
+        <h4>
+            Details of bank account 
+        </h4>
+        <div class="row">
+            <div class="form-group col-sm-3" >
+                <label for="exampleInputEmail1">Bank Account Number</label>
+                <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter amount">
+                <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+            </div>
+            <div class="form-group col-sm-3" >
+                <label for="exampleInputPassword1">IFSC Code</label>
+                <input type="text" class="form-control" id="exampleInputPassword1" placeholder="IFSC Code">
+            </div>
+            <div class="form-group col-sm-3" >
+                <label for="exampleInputPassword1">Name of the bank & branch</label>
+                <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter Bank">
+            </div>
+            <div class="form-group col-sm-3" >
+                <label for="exampleInputPassword1">Type Of the Account</label>
+                <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Type of the Account">
+            </div>
+        </div>
+
+     <!-- <h4>   List of the documents </h5> -->
+        <div class="row">
+            <div class="form-group col-sm-3" >
+                <label for="exampleInputPassword1">Documents</label>
+                <input type="file" multiple class="form-control" id="exampleInputPassword1" placeholder="Type of the Account">
+            </div>
+        </div>
+          
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+
+</body>
+</html>
